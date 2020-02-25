@@ -1,0 +1,23 @@
+﻿  템플릿 링크드리스트.cpp
+c:\users\msi\source\repos\템플릿 실습\템플릿 실습\템플릿 링크드리스트.cpp(26): error C2678: 이항 '!=': 왼쪽 피연산자로 'CListIterator<T>' 형식을 사용하는 연산자가 없거나 허용되는 변환이 없습니다.
+          with
+          [
+              T=int
+          ]
+  c:\users\msi\source\repos\템플릿 실습\템플릿 실습\clinkedlist.h(61): note: 'bool CListIterator<T>::operator !=(const CListIterator<T> &)'일 수 있습니다.
+          with
+          [
+              T=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(306): note: 또는       'bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(301): note: 또는       'bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(296): note: 또는       'bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(291): note: 또는       'bool std::operator !=(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(346): note: 또는       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(341): note: 또는       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(336): note: 또는       'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) noexcept'
+  c:\users\msi\source\repos\템플릿 실습\템플릿 실습\템플릿 링크드리스트.cpp(26): note: 인수 목록 '(CListIterator<T>, Creverseiterator<T>)'을(를) 일치시키는 동안
+          with
+          [
+              T=int
+          ]

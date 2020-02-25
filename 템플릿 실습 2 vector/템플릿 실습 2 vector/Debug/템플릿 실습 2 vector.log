@@ -1,0 +1,45 @@
+﻿  main.cpp
+c:\users\msi\source\repos\템플릿 실습 2 vector\템플릿 실습 2 vector\stack.h(22): error C2460: 'stacknode<T>::m_pnext': 정의 중인 'stacknode<T>'을(를) 사용합니다.
+          with
+          [
+              T=int
+          ]
+  c:\users\msi\source\repos\템플릿 실습 2 vector\템플릿 실습 2 vector\stack.h(51): note: 'stacknode<T>' 선언을 참조하십시오.
+          with
+          [
+              T=int
+          ]
+  c:\users\msi\source\repos\템플릿 실습 2 vector\템플릿 실습 2 vector\stack.h(77): note: 컴파일 중인 클래스 템플릿 인스턴스화 'stacknode<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=int
+          ]
+  c:\users\msi\source\repos\템플릿 실습 2 vector\템플릿 실습 2 vector\stack.h(73): note: 클래스 템플릿 멤버 함수 'T stack<T>::pop(void)'을(를) 컴파일하고 있습니다.
+          with
+          [
+              T=int
+          ]
+  c:\users\msi\source\repos\템플릿 실습 2 vector\템플릿 실습 2 vector\main.cpp(31): note: 컴파일 중인 함수 템플릿 인스턴스화 'T stack<T>::pop(void)'에 대한 참조를 확인하십시오.
+          with
+          [
+              T=int
+          ]
+  c:\users\msi\source\repos\템플릿 실습 2 vector\템플릿 실습 2 vector\main.cpp(22): note: 컴파일 중인 클래스 템플릿 인스턴스화 'stack<int>'에 대한 참조를 확인하세요.
+c:\users\msi\source\repos\템플릿 실습 2 vector\템플릿 실습 2 vector\stack.h(77): error C2440: '초기화 중': 'int'에서 'stacknode<T> *'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  c:\users\msi\source\repos\템플릿 실습 2 vector\템플릿 실습 2 vector\stack.h(77): note: 정수 계열 형식에서 포인터 형식으로 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\msi\source\repos\템플릿 실습 2 vector\템플릿 실습 2 vector\stack.h(78): error C2440: '초기화 중': 'int'에서 'stacknode<T> *'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  c:\users\msi\source\repos\템플릿 실습 2 vector\템플릿 실습 2 vector\stack.h(78): note: 정수 계열 형식에서 포인터 형식으로 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\msi\source\repos\템플릿 실습 2 vector\템플릿 실습 2 vector\stack.h(84): error C2440: '=': 'stacknode<T> *'에서 'int'(으)로 변환할 수 없습니다.
+          with
+          [
+              T=int
+          ]
+  c:\users\msi\source\repos\템플릿 실습 2 vector\템플릿 실습 2 vector\stack.h(84): note: 이 변환이 가능한 컨텍스트가 없습니다.
